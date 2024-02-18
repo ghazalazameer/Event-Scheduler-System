@@ -1,3 +1,8 @@
+<p align="center" style="color: #6f55f2; font-family: Rockwell, serif; font-size: 24px; font-weight: bold;">
+  🏋🏽Fitness Flix🏋🏽
+</p>
+
+
 ## Event Management API
 
 A simple Flask API for creating, viewing, updating, and deleting events.
