@@ -30,10 +30,10 @@ Events are expected in JSON format with the following structure:
 
 ```json
 {
-  "title": "Event Title",
-  "description": "Event description",
-  "start_time": "YYYY-MM-DDTHH:MM:SS",
-  "end_time": "YYYY-MM-DDTHH:MM:SS"
+    "description": "Event description",
+    "end_time": "YYYY-MM-DDTHH:MM:SS",
+    "start_time": "YYYY-MM-DDTHH:MM:SS",
+    "title": "Event Title"
 }
 ```
 
