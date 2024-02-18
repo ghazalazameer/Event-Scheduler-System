@@ -9,29 +9,25 @@ A simple Flask API for creating, viewing, updating, and deleting events.
 * Event Modification: Update existing events using PUT requests.
 * Event Deletion: Remove events via DELETE requests.
 
-## Endpoints
+## Endpoints:
 
-* *POST /events* 
-    * Adds a new event.
-* *GET /events*
-    * Retrieves all events.
-    * Supports optional search by query (?query=search_term).
-* *PUT /events/<int:index>*
-    * Modifies an existing event based on its index.
-* *DELETE /events/<int:index>*
-    * Deletes an event specified by its index.
+- POST /events : Add a new event
+- GET /events : Get all events or search for events 
+- PUT /events/<int:index> : Update an event by index
+- DELETE /events/<int:index> : Delete an event by index
 
-## Data Structure
+## Data Structure:
 
-Events are structured as JSON objects:
+Events are expected in JSON format with the following structure:
 
 ```json
 {
-  "title": "Event Title",
-  "description": "Event description",
-  "start_time": "YYYY-MM-DDTHH:MM:SS", // ISO 8601 format recommended
-  "end_time": "YYYY-MM-DDTHH:MM:SS" 
+    "title": "Event Title",
+    "description": "Event description",
+    "start_time": "YYYY-MM-DDTHH:MM:SS",
+    "end_time": "YYYY-MM-DDTHH:MM:SS"
 }
+```
 
 ## Getting Started:
 
@@ -52,5 +48,6 @@ Events are structured as JSON objects:
 - Create a branch for your changes.
 - Make your changes and commit them.
 - Open a pull request.
+
 
 
