@@ -2,7 +2,7 @@
 
 This project is a simple Flask-based RESTful API for managing events. It allows users to perform CRUD (Create, Read, Update, Delete) operations on events stored in a JSON file. The API supports endpoints for adding, retrieving, updating, and deleting events. Additionally, it includes a search functionality to find events based on specific criteria.
 
-## Technologies Used
+## Technologies Used:
 
 * Python: Backend logic is written in Python programming language.
 * Flask: The web framework used for building the RESTful API.
@@ -10,7 +10,7 @@ This project is a simple Flask-based RESTful API for managing events. It allows 
 * JSON: Events are stored in a JSON file for persistence.
 * Git: Version control system used for managing the project.
 
-## Features
+## Features:
 
 * Event Creation: Add new events via a POST request.
 * Event Listing: Retrieve all events or search by title/description using GET.
