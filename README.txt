@@ -1,4 +1,4 @@
-# Event Management API
+## Event Management API
 
 A simple Flask API for creating, viewing, updating, and deleting events.
 
