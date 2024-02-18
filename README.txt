@@ -1,4 +1,4 @@
- # Event Management API
+# Event Management API
 
 This Flask API provides endpoints for managing events.
 
