@@ -30,18 +30,19 @@ Events are expected in JSON format with the following structure:
 
 ```json
 {
-    "description": "Event description",
-    "end_time": "YYYY-MM-DDTHH:MM:SS",
-    "start_time": "YYYY-MM-DDTHH:MM:SS",
-    "title": "Event Title"
+  "description": "Event description",
+  "end_time": "YYYY-MM-DDTHH:MM:SS",
+  "start_time": "YYYY-MM-DDTHH:MM:SS",
+  "title": "Event Title"
 }
 ```
 
 ## Getting Started:
 
 1. Clone this repository.
-2. Run the application: `python app.py`
-3. Access the API using a tool like Postman.
+2. Install dependencies: `pip freeze > requirements.txt`
+3. Run the application: `python app.py`
+4. Access the API using a tool like Postman.
 
 ## Additional Notes:
 
