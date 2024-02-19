@@ -41,7 +41,7 @@ Events are expected in JSON format with the following structure:
 
 1. Clone this repository.
 2. Install dependencies: `pip freeze > requirements.txt`
-3. Run the application: `python app.py`
+3. Run the application: `python app.py` or `flask run` (This will start the flask development server)
 4. Access the API using a tool like Postman.
 
 ## Additional Notes:
