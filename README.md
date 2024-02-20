@@ -1,4 +1,4 @@
-# Event Scheduler System 🚀
+# Event Scheduler System 🗓
 
 This project is a simple Flask-based RESTful API for managing events. It allows users to perform CRUD (Create, Read, Update, Delete) operations on events stored in a JSON file. The API supports endpoints for adding, retrieving, updating, and deleting events. Additionally, it includes a search functionality to find events based on specific criteria.
 
